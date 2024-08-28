@@ -1,2 +1,1 @@
-https://share.streamlit.io/notebook
-
+https://analysys-with-python-dicoding.streamlit.app/
