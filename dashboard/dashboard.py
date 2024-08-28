@@ -101,7 +101,7 @@ st.markdown("""
 In this section, we cluster the bike rentals by hour to identify peak times for rentals.
 """)
 
-hour_df = pd.read_csv("hour.csv")
+hour_df = pd.read_csv("dashboard/hour.csv")
 geo_df = hour_df.groupby('hr')['cnt'].sum().reset_index()
 
 # Plot the data to find hotspots
